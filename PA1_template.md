@@ -107,7 +107,7 @@ hist(steps_by_day_i$steps, main = paste("Total Steps Each Day"), col="green", xl
 
 #Create Histogram to show difference. 
 hist(steps_by_day$steps, main = paste("Total Steps Each Day"), col="blue", xlab="Number of Steps", add=T)
-legend("topright", c("Imputed", "Non-imputed"), col=c("green", "blue"), lwd=10)
+legend("topright", c("Missing", "Present"), col=c("green", "blue"), lwd=10)
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
